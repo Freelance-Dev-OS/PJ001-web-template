@@ -1,4 +1,5 @@
 import { BackToTop, Footer, Header, ScrollIndicator } from "@components/common";
+import { HeaderNavigation } from "@components/common/HeaderNavigation";
 import {
     Domain,
     FocusPoint,
@@ -38,6 +39,8 @@ export default function () {
                 <WorkWithUs />
                 <SocialBenefits />
                 <Interested />
+                <HeaderNavigation />
+
             </div>
             <Footer />
         </>
