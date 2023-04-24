@@ -30,7 +30,7 @@ export default function () {
             <RefreshedPopup isOpen={isOpen} onClose={close} />
             <ScrollIndicator className="max-md:hidden" />
 
-            <HeaderNavigation />
+   
             <div className="overflow-hidden m-auto min-h-screen md:flex md:flex-col md:overflow-y-auto md:max-w-[1440px]">
                 <Hero />
                 <OurMission />
